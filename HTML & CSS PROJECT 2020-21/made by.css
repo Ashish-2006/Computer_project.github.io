@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+body{
+  background-color: #91E19C;
+}
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 170px;
+  padding: 100px;
+  border: 2px solid black;
+  border-radius: 24px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color: black;
+}
+.content:hover a{
+  border-color: black;
+  background: white;
+}
+.content-2:hover{
+  border-color: #3BFB16;
+  background: #3BFB16;
+}
+.content-2:hover a{
+  color: #3BFB16;
+}
+
+}
+.content h2{
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-right: 100px;
+  margin-top: 100px
+}
+
+.content a{
+  margin: 50px 0px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 24px;
+  transition: .3s ease;
+  font-size: 24px;
+  font-family: cursive;
+}
+a{
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+}
+
